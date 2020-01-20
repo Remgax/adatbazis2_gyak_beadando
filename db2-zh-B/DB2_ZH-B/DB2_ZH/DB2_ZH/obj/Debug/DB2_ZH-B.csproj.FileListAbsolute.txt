@@ -1,0 +1,11 @@
+D:\Egyetem\OKTER\adatok\2018-2019-2\DB2_ZH-B\DB2_ZH\DB2_ZH\bin\Debug\DB2_ZH.exe.config
+D:\Egyetem\OKTER\adatok\2018-2019-2\DB2_ZH-B\DB2_ZH\DB2_ZH\bin\Debug\DB2_ZH.exe
+D:\Egyetem\OKTER\adatok\2018-2019-2\DB2_ZH-B\DB2_ZH\DB2_ZH\bin\Debug\DB2_ZH.pdb
+D:\Egyetem\OKTER\adatok\2018-2019-2\DB2_ZH-B\DB2_ZH\DB2_ZH\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\Egyetem\OKTER\adatok\2018-2019-2\DB2_ZH-B\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH-B.csprojAssemblyReference.cache
+D:\Egyetem\OKTER\adatok\2018-2019-2\DB2_ZH-B\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.Properties.Resources.resources
+D:\Egyetem\OKTER\adatok\2018-2019-2\DB2_ZH-B\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.Views.WinForms.ZHForm.resources
+D:\Egyetem\OKTER\adatok\2018-2019-2\DB2_ZH-B\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH-B.csproj.GenerateResource.cache
+D:\Egyetem\OKTER\adatok\2018-2019-2\DB2_ZH-B\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH-B.csproj.CopyComplete
+D:\Egyetem\OKTER\adatok\2018-2019-2\DB2_ZH-B\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.exe
+D:\Egyetem\OKTER\adatok\2018-2019-2\DB2_ZH-B\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.pdb

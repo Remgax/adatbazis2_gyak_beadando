@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\ConsApp\DB2_ZH\DB2_ZH\bin\Debug\DB2_ZH.exe.config
+C:\Users\user\Desktop\ConsApp\DB2_ZH\DB2_ZH\bin\Debug\DB2_ZH.exe
+C:\Users\user\Desktop\ConsApp\DB2_ZH\DB2_ZH\bin\Debug\DB2_ZH.pdb
+C:\Users\user\Desktop\ConsApp\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\ConsApp\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.Properties.Resources.resources
+C:\Users\user\Desktop\ConsApp\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\ConsApp\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.exe
+C:\Users\user\Desktop\ConsApp\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.pdb
+C:\Users\user\Desktop\ConsApp\DB2_ZH\DB2_ZH\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\user\Desktop\ConsApp\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.Views.WinForms.ZHForm.resources
