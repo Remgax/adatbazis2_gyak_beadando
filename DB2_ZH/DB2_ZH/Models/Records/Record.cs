@@ -8,8 +8,8 @@ namespace DB2_ZH.Models.Records
 {
     class Record
     {
-       private int id;
-       public int Id
+       private long id;
+       public long Id
        {
            get { return id; }
            set { id = value; }
@@ -19,18 +19,37 @@ namespace DB2_ZH.Models.Records
        public string Nev
        {
            get { return nev; }
-           set { nev = value; }
+           set 
+           {
+                if (value == null) 
+                    throw new ArgumentNullException("A nev nem lehet null!");
+                if (value.Length == 0)
+                    throw new ArgumentException("A Név hossza nem lehet 0");
+                if (250 < value.Length) 
+                    throw new ArgumentOutOfRangeException("A nev max 250 karakter");
+                nev = value; 
+           }
        }
 
        private string bankartyaszam;
        public string Bankartyaszam
        {
            get { return bankartyaszam; }
-           set { bankartyaszam = value; }
+           set 
+           {
+               
+                if (value.Length == 0)
+                    throw new ArgumentException("A Bankártyaszám hossza nem lehet 0");
+                if (16 != value.Length)
+                    throw new ArgumentOutOfRangeException("A bankártyaszámnak pontosan 16 számból kell álnia.");
+                nev = value;
+
+                bankartyaszam = value; 
+           }
        }
        
-       private int egyenleg;
-       public int Egyenleg
+       private long egyenleg;
+       public long Egyenleg
        {
            get { return egyenleg; }
            set { egyenleg = value; }

@@ -1,1 +1,11 @@
-﻿
+﻿CREATE OR REPLACE FUNCTION get_next(
+	p_id in szamlak.id%TYPE
+)
+RETURN INT
+DETERMINISTIC
+AUTHID CURRENCT_USER
+AS
+	v_Id INT;
+BEGIN
+	IF p_id > 
+END get_next;
