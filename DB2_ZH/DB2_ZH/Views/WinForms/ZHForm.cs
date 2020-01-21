@@ -44,15 +44,42 @@ namespace DB2_ZH.Views.WinForms
                 int ujSorok = tableManager.Insert(ujRecord);
                 MessageBox.Show(ujSorok + " sor rögzitésre került!");
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                MessageBox.Show(e.Message);
+                MessageBox.Show(ex.Message);
             }
         }
 
         private void button_delete_Click(object sender, EventArgs e)
         {
+            if (dataGridView_recrods.CurrentCell.RowIndex < 0)
+            {
+                MessageBox.Show("Kérem válaszzon egy sor törlés előtt");
+                return;
+            }
+            else 
+            {
+                Models.Records.Record torles = (Models.Records.Record)dataGridView_recrods.SelectedRows;
+                int toroltRecord = tableManager.Delete(torles);
+                MessageBox.Show(toroltRecord + " Sikeresen Törölve lett!");
+                szamlak = tableManager.Select();
 
+            }
+                    
+        }
+
+        private void textBox_kartyaszam_TextChanged(object sender, EventArgs e)
+        {
+            string value = textBox_kartyaszam.Text;
+            OracleManager oracleManager = new OracleManager();
+            if (!oracleManager.CheckData(value))
+            {
+                textBox_kartyaszam.BackColor = Color.Red;
+            }
+            else 
+            {
+                textBox_kartyaszam.BackColor = Color.White;
+            }
         }
     }
 }

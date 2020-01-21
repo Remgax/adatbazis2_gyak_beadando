@@ -9,3 +9,9 @@ D:\Egyetem\OKTER\adatok\2018-2019-2\DB2_ZH-B\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH-B.cs
 D:\Egyetem\OKTER\adatok\2018-2019-2\DB2_ZH-B\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH-B.csproj.CopyComplete
 D:\Egyetem\OKTER\adatok\2018-2019-2\DB2_ZH-B\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.exe
 D:\Egyetem\OKTER\adatok\2018-2019-2\DB2_ZH-B\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.pdb
+E:\GitHub\adatbazis2_gyak_beadando\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH-B.csprojAssemblyReference.cache
+E:\GitHub\adatbazis2_gyak_beadando\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.Properties.Resources.resources
+E:\GitHub\adatbazis2_gyak_beadando\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.Views.WinForms.ZHForm.resources
+E:\GitHub\adatbazis2_gyak_beadando\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH-B.csproj.GenerateResource.cache
+E:\GitHub\adatbazis2_gyak_beadando\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.exe
+E:\GitHub\adatbazis2_gyak_beadando\DB2_ZH\DB2_ZH\obj\Debug\DB2_ZH.pdb
