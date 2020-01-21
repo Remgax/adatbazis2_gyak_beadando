@@ -34,8 +34,9 @@ namespace DB2_ZH.Models.Managers
             check.Direction = System.Data.ParameterDirection.ReturnValue;
 
             parancs.Parameters.Add(check);
-
-            return parancs.ExecuteReader();
+            object obj = parancs.ExecuteScalar();
+            bool valueCheck = obj != null && obj != DBNull.Value;
+            return valueCheck;
         }
 
         public int Insert(Record record)
