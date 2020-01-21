@@ -24,7 +24,18 @@ namespace DB2_ZH.Models.Managers
 
         public bool CheckData(string data)
         {
-            throw new NotImplementedException();
+            OracleCommand parancs = new OracleCommand();
+            parancs.Connection = getConnection();
+            parancs.CommandType = System.Data.CommandType.StoredProcedure;
+            parancs.CommandText = "M5APWK_check_data";
+
+            OracleParameter check = new OracleParameter();
+            check.DbType = System.Data.DbType.String;
+            check.Direction = System.Data.ParameterDirection.ReturnValue;
+
+            parancs.Parameters.Add(check);
+
+            return parancs.ExecuteReader();
         }
 
         public int Insert(Record record)
@@ -101,10 +112,10 @@ namespace DB2_ZH.Models.Managers
             while (reader.Read())
             {
                 Record ujRecord = new Record();
-                ujRecord.Id = long.Parse(reader["id"].ToString());
+                ujRecord.Id = int.Parse(reader["id"].ToString());
                 ujRecord.Nev = reader["nev"].ToString();
                 ujRecord.Bankartyaszam = reader["bankartyaszam"].ToString();
-                ujRecord.Egyenleg = long.Parse(reader["egyenleg"].ToString());
+                ujRecord.Egyenleg = int.Parse(reader["egyenleg"].ToString());
 
                 szamlak.Add(ujRecord);
 

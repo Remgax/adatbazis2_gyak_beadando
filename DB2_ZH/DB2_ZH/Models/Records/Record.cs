@@ -8,8 +8,8 @@ namespace DB2_ZH.Models.Records
 {
     class Record
     {
-       private long id;
-       public long Id
+       private int id;
+       public int Id
        {
            get { return id; }
            set { id = value; }
@@ -48,8 +48,8 @@ namespace DB2_ZH.Models.Records
            }
        }
        
-       private long egyenleg;
-       public long Egyenleg
+       private int egyenleg;
+       public int Egyenleg
        {
            get { return egyenleg; }
            set { egyenleg = value; }
