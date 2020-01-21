@@ -1,4 +1,4 @@
-﻿CREATE TABLE szamlak(
+﻿CREATE TABLE M5APWK_szamlak(
     id INT NOT NULL, 
     nev VARCHAR2(250) NOT NULL, 
     bankkartyaszam CHAR(16) NOT NULL, 

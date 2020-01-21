@@ -87,8 +87,8 @@
   <ItemGroup>
     <Content Include="SQL\check_data.sql" />
     <Content Include="SQL\create.sql" />
+    <Content Include="SQL\get_next.sql" />
     <Content Include="SQL\insert_data.sql" />
-    <Content Include="SQL\next_id.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
